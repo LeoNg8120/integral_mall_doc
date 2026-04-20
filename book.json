@@ -1,0 +1,39 @@
+{
+  "root": ".",
+  "title": "积分商城开发文档",
+  "description": "积分商城 Integral Mall 完整技术文档",
+  "author": "Integral Mall Team",
+  "language": "zh-hans",
+  "gitbook": ">=3.0.0",
+  "plugins": [
+    "mermaid",
+    "prism",
+    "-highlight",
+    "github-buttons",
+    "anchors",
+    "expandable-chapters"
+  ],
+  "pluginsConfig": {
+    "mermaid": {
+      "theme": "default"
+    },
+    "github-buttons": {
+      "buttons": [
+        {
+          "user": "wulei",
+          "repo": "integral_mall",
+          "type": "star"
+        }
+      ]
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-tomorrow.css"
+      ]
+    }
+  },
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  }
+}
